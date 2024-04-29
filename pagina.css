@@ -1,0 +1,109 @@
+body{
+    margin: 0;
+    height: 100%;
+    background-color: rgb(130, 88, 138);
+}
+
+.img_inicio{
+    width: 50%; 
+    height: 400px; 
+    float: left; 
+}
+.menu{
+    display: inline-block;
+    margin: 20px;
+    font-size: 15px;
+    color: rgb(212, 103, 222);
+    
+}
+h3{
+    color: white
+}
+a{
+    color: rgb(4, 6, 48);
+    text-decoration: none;
+}
+
+.menucont{
+    left: 50px;
+    width: auto;
+    text-align: center;
+}
+
+.fuente_times{
+    font-style: normal;
+    font-variant: small-caps;
+    font-size: 50px;
+}
+
+h1{
+    text-align: center;
+    color: rgb(3, 3, 3);
+    font-style: normal;
+    font-size: 30px;
+}
+
+.cont{
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center; 
+    background-color: #b25bb3;
+    width: 100%;
+    height: auto; 
+}
+
+.img_historia{
+    width: 50%; 
+    height: auto; 
+    float: left; 
+}
+
+.img_historia2{
+    width: 50%; 
+    height: auto; 
+    float: right; 
+}
+.img_historia{
+    width: 50%; 
+    height: auto; 
+    float: right;
+}
+
+.parrafo-derecho{
+    width: 100%; 
+    margin: 10px;
+    color: rgb(0, 0, 0);
+    text-align: start;
+}
+
+.div_table {
+    align-items: center;
+}
+table {
+    border-radius: separate;
+    border-spacing: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+th, td {
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 15px;
+    border-style: outset;
+    color: white;
+    background-color: rgb(2, 6, 11);
+}
+
+.div_enlaces {
+    color: rgb(3, 6, 9);
+}
+
+.boton{
+    display: inline-block;
+    padding: 10px 20px; 
+    background-color: rgba(230, 160, 211, 0.893);
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+}
