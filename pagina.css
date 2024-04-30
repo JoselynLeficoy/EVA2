@@ -1,7 +1,16 @@
+body {
+    font-family: "Times New Roman", Times, serif;
+}
+
+
+h1, h2, h3 {
+    font-family: "Verdana", sans-serif;
+}
+
 body{
     margin: 0;
     height: 100%;
-    background-color: rgb(130, 88, 138);
+    background-color: rgb(46, 139, 190);
 }
 
 .img_inicio{
@@ -13,11 +22,11 @@ body{
     display: inline-block;
     margin: 20px;
     font-size: 15px;
-    color: rgb(212, 103, 222);
+    color: rgb(95, 158, 225);
     
 }
 h3{
-    color: white
+    color: rgb(0, 0, 0)
 }
 a{
     color: rgb(4, 6, 48);
@@ -43,14 +52,14 @@ h1{
     font-size: 30px;
 }
 
-.cont{
+.texto{
     display: flex; 
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center; 
-    background-color: #b25bb3;
+    background-color: rgb(95, 158, 225);
     width: 100%;
-    height: auto; 
+    height: auto;
 }
 
 .img_historia{
@@ -63,11 +72,6 @@ h1{
     width: 50%; 
     height: auto; 
     float: right; 
-}
-.img_historia{
-    width: 50%; 
-    height: auto; 
-    float: right;
 }
 
 .parrafo-derecho{
@@ -95,15 +99,10 @@ th, td {
     background-color: rgb(2, 6, 11);
 }
 
-.div_enlaces {
-    color: rgb(3, 6, 9);
+.div_enlaces a {
+    color: rgb(20, 100, 11);
 }
 
-.boton{
-    display: inline-block;
-    padding: 10px 20px; 
-    background-color: rgba(230, 160, 211, 0.893);
-    text-decoration: none;
-    border: none;
-    border-radius: 5px;
+.encuesta a{
+    color:brown
 }
