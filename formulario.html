@@ -26,36 +26,33 @@
             <h2>Este es un formulario sobre los cuidados que requieren los caninos: </h2>
         </div>
 
-        <form action="procesar_encuesta.php" method="POST">
+        <form action="procesar_encuesta.php">
             <label for="nombre">Nombre:</label>
-            <input type="text" id="nombre" name="nombre" required>
+            <input type="text" id="nombre" name="nombre">
             <br>
     
             <label for="edad">Edad:</label>
-            <input type="number" id="edad" name="edad" required>
+            <input type="number" id="edad" name="edad">
             <br>
     
             <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
+            <input type="email" id="email" name="email">
             <br>
     
             <label for="cuidado">¿Qué medidas tomas para cuidar a tu perro?</label>
-            <textarea id="cuidado" name="cuidado" rows="4" required></textarea>
+            <input type="cuidado" id="cuidado" name="cuidado">
             <br>
     
             <label for="problemas">¿Qué problemas has enfrentado al cuidar a tu perro?</label>
-            <textarea id="problemas" name="problemas" rows="4" required></textarea>
+            <input type= "problemas" id="problemas" name="problemas">
             <br>
     
             <label for="recomendaciones">¿Tienes alguna recomendación para otros dueños de perros?</label>
-            <textarea id="recomendaciones" name="recomendaciones" rows="4" required></textarea>
+            <input type ="recomendaciones" id= "recomendaciones" name="recomendaciones">
             <br>
     
             <input type="submit" value="Enviar">
 
-            <div class="mx-auto" style="width: 400px;">
-                <p><h3>¡Muchas gracias por contestar la encuesta!</h3></p>
-            </div>
         </form>
     </body>
     </html>
