@@ -1,7 +1,8 @@
 body{
     margin: 0;
-    height: 100%;
-    background-color: rgb(116, 198, 202);
+    height: auto;
+    width: auto;
+    background-color: rgb(156, 201, 203);
 }
 
 h1{
@@ -14,17 +15,17 @@ h4{
 
 .Homeform{
     display: inline-block;
-    padding: 30px; 
+    padding:auto; 
     background-color: rgb(89, 171, 209);
     text-decoration: none;
     border: none;
-    border-radius: 10px;
+    border-radius: auto;
 }
 
 button {
-    background-color:rgb(91, 72, 199);
-    padding: 20px 30px; 
+    background-color:rgb(80, 61, 186);
+    padding: auto; 
     text-decoration: none;
     border: none;
-    border-radius: 10px;
+    border-radius: auto;
 }
